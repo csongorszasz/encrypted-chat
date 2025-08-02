@@ -1,0 +1,21 @@
+{
+    "block_size": 128,
+    "cipher_algorithm": {
+        "AES": true,
+        "CustomCipher": false
+    },
+    "key_path": "block_cipher/key.txt",
+    "mode_of_operation": {
+        "ECB": false,
+        "CBC": false,
+        "CFB": false,
+        "OFB": true,
+        "CTR": false
+    },
+    "initial_block_path": "block_cipher/initial_block.txt",
+    "padding": {
+        "Zero": false,
+        "DES": true,
+        "SchneierFerguson": false
+    }
+}

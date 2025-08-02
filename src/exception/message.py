@@ -1,0 +1,2 @@
+class MissingMessageTypeError(Exception):
+    pass

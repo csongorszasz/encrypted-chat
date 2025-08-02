@@ -1,0 +1,2 @@
+class NoCommonBlockCipherError(Exception):
+    pass
